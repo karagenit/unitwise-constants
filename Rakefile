@@ -16,8 +16,7 @@ task :clean do
 end
 
 task :test do
-    sh "rubocop lib/unitwise-constants"
-    sh "./test/test-unitwise-constants.rb"
+    sh "rubocop lib/unitwise/constants.rb"
 end
 
 task :publish do
