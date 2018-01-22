@@ -11,6 +11,8 @@ Gem::Specification.new do |s|
     s.require_paths = ['lib/']
     s.platform      = Gem::Platform::RUBY
 
+    s.add_runtime_dependency     'unitwise',                    '~> 2.2'
+
     s.add_development_dependency 'rubocop',                     '~> 0.49'
     s.add_development_dependency 'rdoc',                        '~> 4.2'
     s.add_development_dependency 'bundler',                     '~> 1.15'
